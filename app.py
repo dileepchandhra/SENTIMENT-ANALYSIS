@@ -90,3 +90,4 @@ select = vectorizer.transform([select]).toarray()
 output = np.argmax(model.predict(select), axis=-1)
 
 st.title(output[0])
+ 
