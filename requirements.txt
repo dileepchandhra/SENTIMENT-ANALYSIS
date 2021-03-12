@@ -3,5 +3,4 @@ pandas
 numpy
 nltk
 tensorflow
-string
 sklearn
