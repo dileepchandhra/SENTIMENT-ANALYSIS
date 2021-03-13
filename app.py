@@ -51,7 +51,7 @@ y = df.iloc[:,1].values
 
 #x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.05,random_state = 0,stratify = y)
 
-text_model = Pipeline([('tfidf',TfidfVectorizer()) , ('model',SVC())])
+text_model =  Pipeline([('tfidf',TfidfVectorizer()) , ('model',SVC())])
 text_model.fit(x,y)
 
 #y_train = keras.utils.to_categorical(y_train)
