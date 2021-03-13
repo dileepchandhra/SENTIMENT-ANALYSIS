@@ -16,6 +16,7 @@ import string
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
 
 df = pd.read_csv('data.csv')
 
